@@ -2,7 +2,7 @@
 
 const CardCount = () => {
   return (
-    <div>CardCount</div>
+    <div className="hidden md:flex">CardCount</div>
   )
 }
 
