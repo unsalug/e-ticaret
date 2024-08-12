@@ -13,7 +13,7 @@ const Detail = ({params}: {params: DetailProps}) => {
 
   return (
     <div>
-        <DetailClient product={product}/>
+        <DetailClient product={product}/> 
     </div>
   )
 }
