@@ -55,7 +55,7 @@ const DetailClient = ({product} : {product: any}) => {
                     <div className="flex items-center gap-2">
                     <div>STOK DURUMU:</div>
                     {
-                        product.inStock ? <div className="text-green-500">Ürün stokta var</div> : <div className="text-red-500">Üürn stokta yok</div>
+                        product.inStock ? <div className="text-green-600">Ürün stokta var</div> : <div className="text-red-500">Ürün stokta yok</div>
                     }
                 </div>
                  <Counter increaseFunc={increaseFunc} decreaseFunc={decreaseFunc} cardProduct={cardProduct} />
